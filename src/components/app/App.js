@@ -9,7 +9,7 @@ import decoration from '../../resources/img/vision.png';
 
 const marvelservice = new MarvelService();
 
-marvelservice.getCharacter(23).then(res => console.log(res));
+marvelservice.getCharacter(1011052).then(res => console.log(res));
 
 const App = () => {
     return (
